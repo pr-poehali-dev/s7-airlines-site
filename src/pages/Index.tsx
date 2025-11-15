@@ -60,9 +60,11 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                <Icon name="Plane" className="text-white" size={24} />
-              </div>
+              <img 
+                src="https://cdn.poehali.dev/projects/34d7bc43-7e28-4d65-9611-25db16de7adb/files/1e4f63e0-5642-4cde-8d0c-83dd2313ac90.jpg" 
+                alt="S7 Airlines Logo" 
+                className="w-12 h-12 rounded-full object-cover"
+              />
               <div>
                 <h1 className="text-2xl font-bold text-white">S7 Airlines</h1>
                 <p className="text-xs text-white/70">Project Flight Virtual</p>
@@ -367,9 +369,11 @@ const Index = () => {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                  <Icon name="Plane" className="text-white" size={20} />
-                </div>
+                <img 
+                  src="https://cdn.poehali.dev/projects/34d7bc43-7e28-4d65-9611-25db16de7adb/files/1e4f63e0-5642-4cde-8d0c-83dd2313ac90.jpg" 
+                  alt="S7 Airlines Logo" 
+                  className="w-10 h-10 rounded-full object-cover"
+                />
                 <div>
                   <h3 className="font-bold text-lg">S7 Airlines</h3>
                   <p className="text-xs text-white/70">Project Flight</p>
