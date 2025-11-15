@@ -60,14 +60,9 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <img 
-                src="https://cdn.poehali.dev/projects/34d7bc43-7e28-4d65-9611-25db16de7adb/files/1e4f63e0-5642-4cde-8d0c-83dd2313ac90.jpg" 
-                alt="S7 Airlines Logo" 
-                className="w-12 h-12 rounded-full object-cover"
-              />
               <div>
                 <h1 className="text-2xl font-bold text-white">S7 Airlines</h1>
-                <p className="text-xs text-white/70">Project Flight Virtual</p>
+                <p className="text-xs text-white/70">PTFS Virtual</p>
               </div>
             </div>
             <div className="hidden md:flex gap-6">
@@ -104,7 +99,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center text-white animate-fade-in">
             <Badge className="mb-4 bg-primary text-white text-sm px-4 py-1">
-              Виртуальная авиакомпания Project Flight
+              Виртуальная авиакомпания PTFS
             </Badge>
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               Взлетай с <span className="text-primary">S7 Airlines</span>
@@ -369,14 +364,9 @@ const Index = () => {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <img 
-                  src="https://cdn.poehali.dev/projects/34d7bc43-7e28-4d65-9611-25db16de7adb/files/1e4f63e0-5642-4cde-8d0c-83dd2313ac90.jpg" 
-                  alt="S7 Airlines Logo" 
-                  className="w-10 h-10 rounded-full object-cover"
-                />
                 <div>
                   <h3 className="font-bold text-lg">S7 Airlines</h3>
-                  <p className="text-xs text-white/70">Project Flight</p>
+                  <p className="text-xs text-white/70">PTFS</p>
                 </div>
               </div>
               <p className="text-sm text-white/70">Виртуальная авиакомпания №1 в Roblox</p>
@@ -407,7 +397,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-white/10 pt-8 text-center text-sm text-white/70">
-            <p>© 2025 S7 Airlines Virtual. Project Flight, Roblox</p>
+            <p>© 2025 S7 Airlines Virtual. PTFS (Pilot Training Flight Simulator), Roblox</p>
           </div>
         </div>
       </footer>
